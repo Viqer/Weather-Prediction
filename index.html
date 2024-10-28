@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclone Prediction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- Sidebar Navigation -->
+<div class="sidebar" id="sidebar">
+    <nav>
+        <h3 class="nav-header">Navigation</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="prediction.html">Prediction</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Main Content -->
+<main class="main-content" id="main-content">
+    <header>
+        Cyclone Prediction and Evaluation System
+    </header>
+
+    <div class="container">
+        <!-- Home Section -->
+        <div class="section" id="home">
+            <h2>Welcome to Cyclone Prediction System</h2>
+            <p>This platform leverages deep learning models like CNNs to predict the occurrence and severity of cyclones. 
+            It utilizes satellite imagery and other real-time data sources to make accurate forecasts.</p>
+        </div>
+
+        <!-- About Section -->
+        <div class="section" id="about">
+            <h2>About the Project</h2>
+            <p>This project aims to predict cyclonic conditions using Convolutional Neural Networks (CNN). 
+            Our approach involves training models on datasets like INSAT3D Infrared & Raw Cyclone Imagery (2012-2021) 
+            and evaluating their accuracy and efficiency to find the best solution.</p>
+        </div>
+
+        <!-- Datasets Section -->
+        <div class="section" id="datasets">
+            <h2>Datasets Used</h2>
+            <ul>
+                <li><strong>INSAT3D Infrared & Raw Cyclone Imagery:</strong> 2012-2021 dataset covering cyclone formations and intensities.</li>
+            </ul>
+        </div>
+
+        <!-- Models Section -->
+        <div class="section" id="models">
+            <h2>Model Training & Evaluation</h2>
+            <p>We are experimenting with the following CNN models:</p>
+            <ul>
+                <li><strong>VGG-16 / VGG-19:</strong> For feature extraction from satellite images.</li>
+                <li><strong>ResNet-50:</strong> Deeper networks for capturing complex patterns.</li>
+                <li><strong>EfficientNet:</strong> Optimized for balancing accuracy and speed.</li>
+            </ul>
+            <p>The best model will be selected based on accuracy, inference speed, and resource consumption.</p>
+        </div>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
